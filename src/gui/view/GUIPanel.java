@@ -5,7 +5,7 @@ import javax.swing.JPanel;
 import javax.swing.JButton;
 import java.awt.Color;
 
-public class GUIPanel
+public class GUIPanel extends JPanel
 {
 	private GUIAppController appController;
 	private JButton firstButton;
