@@ -15,6 +15,32 @@ public class GUIPanel extends JPanel
 		super();
 		this.appController = appController;
 		firstButton = new JButton("Wow a button");
+		setupPanel();
 	}
 	
+	/**
+	 * used to add all components to the subclass of JPanel
+	 * this installs them into the panel so they are seen in the GUI.
+	 */
+	private void setupPanel()
+	{
+		this.add(firstButton);
+		
+	}
+	
+	/**
+	 * This is used to hold all the layout and arrangement code for SpringLayout.
+	 */
+	private void setupLayout()
+	{
+		
+	}
+	
+	/**
+	 * this helper method is used to link any GUIcomponents to the associated listener
+	 */
+	private void setupListeners()
+	{
+		
+	}
 }
