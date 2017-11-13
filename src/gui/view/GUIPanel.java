@@ -21,7 +21,6 @@ public class GUIPanel extends JPanel
 		firstButton = new JButton("Wow a button");
 		baseLayout= new SpringLayout();
 		
-		
 		setupPanel();
 		setupLayout();
 		setupListeners();
